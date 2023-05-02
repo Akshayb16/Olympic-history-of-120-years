@@ -4,4 +4,28 @@ For this exploratory data analysis project, the dataset is obtained from kaggle 
 
 Link to the dataset: https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 
-![image](https://user-images.githubusercontent.com/132338228/235621874-e10d3a35-c0de-4c42-8c84-e2707667ad79.png)
+
+  ![image](https://user-images.githubusercontent.com/132338228/235621874-e10d3a35-c0de-4c42-8c84-e2707667ad79.png)
+
+There are two files included as part of data namely athlete_events.csv and noc_regions.csv. The file athlete_events.csv contains 271116 rows and 15 columns. Each row corresponds to an individual athlete competing in an individual Olympic event (athlete-events). The columns are:
+
+ID - Unique number for each athlete
+Name - Athlete's name
+Sex - M or F
+Age - Integer
+Height - In centimeters
+Weight - In kilograms
+Team - Team name
+NOC - National Olympic Committee 3-letter code
+Games - Year and season
+Year - Integer
+Season - Summer or Winter
+City - Host city
+Sport - Sport
+Event - Event
+Medal - Gold, Silver, Bronze, or NA
+The noc_regions.csv contains 230 rows and 3 columns. The columns are:
+
+NOC - National Olympic Committee 3-letter code
+Region - Name of countries
+Notes - Notes
