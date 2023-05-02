@@ -39,8 +39,10 @@ Event - Event
 
 Medal - Gold, Silver, Bronze, or NA
 
-The noc_regions.csv contains 230 rows and 3 columns. The columns are:
 
+
+
+The noc_regions.csv contains 230 rows and 3 columns. The columns are:
 
 NOC - National Olympic Committee 3-letter code
 
