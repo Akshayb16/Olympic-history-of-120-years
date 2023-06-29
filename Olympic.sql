@@ -1,6 +1,7 @@
 --------To view the data------------
 SELECT * FROM athlete_events
 SELECT * FROM noc_regions
+	
 SELECT * FROM athlete_events INNER JOIN noc_regions
 ON athlete_events.NOC = noc_regions.NOC
 
@@ -43,7 +44,7 @@ SELECT region,Count(DISTINCT Games)
 FROM athlete_events INNER JOIN noc_regions
 ON athlete_events.NOC = noc_regions.NOC
 GROUP BY region
-HAVING Count(DISTINCT Games) = (SELECT COUNT(DISTINCT Games) FROM athlete_events
+HAVING Count(DISTINCT Games) = (SELECT COUNT(DISTINCT Games) FROM athlete_events)
 
 --------Sport played in all summer Olympics---------------------
 SELECT DISTINCT Sport,COUNT(DISTINCT Games) from athlete_events
